@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "complex": "cpp"
+    },
+    "java.home": "/usr/lib/jvm/default-java/",
+    "python.pythonPath": "/usr/bin/python3"
+}

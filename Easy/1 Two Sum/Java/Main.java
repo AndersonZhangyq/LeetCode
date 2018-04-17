@@ -25,7 +25,7 @@ class Solution {
         }
     }
 
-    /*public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         int length = nums.length;
         if (length <= 1)
             return new int[]{};
@@ -50,7 +50,7 @@ class Solution {
                 ++i;
         }
         return new int[]{};
-    }*/
+    }
 
     /**
      * 使用 Map，查找是否存在和当前元素相加为目标值的元素
@@ -85,7 +85,7 @@ public class Main {
                 nums[i] = get.nextInt();
             }
             int target = get.nextInt();
-            int ans[] = new Solution().twoSum(nums, target);
+            int ans[] = new Solution().twoSum_(nums, target);
             System.out.println(ans[0] + " " + ans[1]);
         }
     }

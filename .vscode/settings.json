@@ -1,7 +1,12 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp",
+        "string_view": "cpp",
+        "ostream": "cpp"
     },
     "java.home": "/usr/lib/jvm/default-java/",
     "python.pythonPath": "/usr/bin/python3"
